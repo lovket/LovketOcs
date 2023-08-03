@@ -1,0 +1,56 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/* TOP NAVIGATION BAR*/
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  position:fixed;
+  width: 100%;
+  overflow: hidden;
+  background-color: #B39BFF;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #8E6AFF;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #8E6AFF;
+  color: white;
+}
+
+/* SPLIT SCREEN PROFILE PAGE THINGY */
+/* Split the screen in half */
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 580px;
+  border-radius: 3%;
+}
+
+/* Font info size*/
+
+
